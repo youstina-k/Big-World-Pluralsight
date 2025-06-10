@@ -1,0 +1,117 @@
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\Completed\Globomantics.Infrastructure\bin\Debug\net8.0\Globomantics.Infrastructure.deps.json
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\Completed\Globomantics.Infrastructure\bin\Debug\net8.0\Globomantics.Infrastructure.runtimeconfig.json
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\Completed\Globomantics.Infrastructure\bin\Debug\net8.0\Globomantics.Infrastructure.dll
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\Completed\Globomantics.Infrastructure\bin\Debug\net8.0\Globomantics.Infrastructure.pdb
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\Completed\Globomantics.Infrastructure\bin\Debug\net8.0\Globomantics.Domain.dll
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\Completed\Globomantics.Infrastructure\bin\Debug\net8.0\Globomantics.Domain.pdb
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\Completed\Globomantics.Infrastructure\obj\Debug\net8.0\Globomantics.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\Completed\Globomantics.Infrastructure\obj\Debug\net8.0\Globomantics.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\Completed\Globomantics.Infrastructure\obj\Debug\net8.0\Globomantics.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\Completed\Globomantics.Infrastructure\obj\Debug\net8.0\Globomantics.Infrastructure.AssemblyInfo.cs
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\Completed\Globomantics.Infrastructure\obj\Debug\net8.0\Globomantics.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\Completed\Globomantics.Infrastructure\obj\Debug\net8.0\Globoman.8DCD1FD2.Up2Date
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\Completed\Globomantics.Infrastructure\obj\Debug\net8.0\Globomantics.Infrastructure.dll
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\Completed\Globomantics.Infrastructure\obj\Debug\net8.0\refint\Globomantics.Infrastructure.dll
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\Completed\Globomantics.Infrastructure\obj\Debug\net8.0\Globomantics.Infrastructure.pdb
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\Completed\Globomantics.Infrastructure\obj\Debug\net8.0\Globomantics.Infrastructure.genruntimeconfig.cache
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\Completed\Globomantics.Infrastructure\obj\Debug\net8.0\ref\Globomantics.Infrastructure.dll
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\Start_Here\Globomantics.Infrastructure\obj\Debug\net8.0\Globomantics.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\Start_Here\Globomantics.Infrastructure\obj\Debug\net8.0\Globomantics.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\Start_Here\Globomantics.Infrastructure\obj\Debug\net8.0\Globomantics.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\Start_Here\Globomantics.Infrastructure\obj\Debug\net8.0\Globomantics.Infrastructure.AssemblyInfo.cs
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\Start_Here\Globomantics.Infrastructure\obj\Debug\net8.0\Globomantics.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\Start_Here\Globomantics.Infrastructure\bin\Debug\net8.0\Globomantics.Domain.deps.json
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\Start_Here\Globomantics.Infrastructure\bin\Debug\net8.0\Globomantics.Domain.runtimeconfig.json
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\Start_Here\Globomantics.Infrastructure\bin\Debug\net8.0\Globomantics.Domain.exe
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\Start_Here\Globomantics.Infrastructure\bin\Debug\net8.0\Globomantics.Infrastructure.deps.json
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\Start_Here\Globomantics.Infrastructure\bin\Debug\net8.0\Globomantics.Infrastructure.runtimeconfig.json
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\Start_Here\Globomantics.Infrastructure\bin\Debug\net8.0\Globomantics.Infrastructure.dll
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\Start_Here\Globomantics.Infrastructure\bin\Debug\net8.0\Globomantics.Infrastructure.pdb
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\Start_Here\Globomantics.Infrastructure\bin\Debug\net8.0\Globomantics.Domain.dll
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\Start_Here\Globomantics.Infrastructure\bin\Debug\net8.0\Globomantics.Domain.pdb
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\Start_Here\Globomantics.Infrastructure\obj\Debug\net8.0\Globoman.8DCD1FD2.Up2Date
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\Start_Here\Globomantics.Infrastructure\obj\Debug\net8.0\Globomantics.Infrastructure.dll
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\Start_Here\Globomantics.Infrastructure\obj\Debug\net8.0\refint\Globomantics.Infrastructure.dll
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\Start_Here\Globomantics.Infrastructure\obj\Debug\net8.0\Globomantics.Infrastructure.pdb
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\Start_Here\Globomantics.Infrastructure\obj\Debug\net8.0\Globomantics.Infrastructure.genruntimeconfig.cache
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\Start_Here\Globomantics.Infrastructure\obj\Debug\net8.0\ref\Globomantics.Infrastructure.dll
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\completed by me\Start_Here\Globomantics.Infrastructure\bin\Debug\net8.0\Globomantics.Domain.deps.json
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\completed by me\Start_Here\Globomantics.Infrastructure\bin\Debug\net8.0\Globomantics.Domain.runtimeconfig.json
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\completed by me\Start_Here\Globomantics.Infrastructure\bin\Debug\net8.0\Globomantics.Domain.exe
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\completed by me\Start_Here\Globomantics.Infrastructure\bin\Debug\net8.0\Globomantics.Infrastructure.deps.json
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\completed by me\Start_Here\Globomantics.Infrastructure\bin\Debug\net8.0\Globomantics.Infrastructure.runtimeconfig.json
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\completed by me\Start_Here\Globomantics.Infrastructure\bin\Debug\net8.0\Globomantics.Infrastructure.dll
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\completed by me\Start_Here\Globomantics.Infrastructure\bin\Debug\net8.0\Globomantics.Infrastructure.pdb
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\completed by me\Start_Here\Globomantics.Infrastructure\bin\Debug\net8.0\Globomantics.Domain.dll
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\completed by me\Start_Here\Globomantics.Infrastructure\bin\Debug\net8.0\Globomantics.Domain.pdb
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\completed by me\Start_Here\Globomantics.Infrastructure\obj\Debug\net8.0\Globomantics.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\completed by me\Start_Here\Globomantics.Infrastructure\obj\Debug\net8.0\Globomantics.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\completed by me\Start_Here\Globomantics.Infrastructure\obj\Debug\net8.0\Globomantics.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\completed by me\Start_Here\Globomantics.Infrastructure\obj\Debug\net8.0\Globomantics.Infrastructure.AssemblyInfo.cs
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\completed by me\Start_Here\Globomantics.Infrastructure\obj\Debug\net8.0\Globomantics.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\completed by me\Start_Here\Globomantics.Infrastructure\obj\Debug\net8.0\Globoman.8DCD1FD2.Up2Date
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\completed by me\Start_Here\Globomantics.Infrastructure\obj\Debug\net8.0\Globomantics.Infrastructure.dll
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\completed by me\Start_Here\Globomantics.Infrastructure\obj\Debug\net8.0\refint\Globomantics.Infrastructure.dll
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\completed by me\Start_Here\Globomantics.Infrastructure\obj\Debug\net8.0\Globomantics.Infrastructure.pdb
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\completed by me\Start_Here\Globomantics.Infrastructure\obj\Debug\net8.0\Globomantics.Infrastructure.genruntimeconfig.cache
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\completed by me\Start_Here\Globomantics.Infrastructure\obj\Debug\net8.0\ref\Globomantics.Infrastructure.dll
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\completed by me - with sqlserver\Start_Here\Globomantics.Infrastructure\obj\Debug\net8.0\Globomantics.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\completed by me - with sqlserver\Start_Here\Globomantics.Infrastructure\obj\Debug\net8.0\Globomantics.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\completed by me - with sqlserver\Start_Here\Globomantics.Infrastructure\obj\Debug\net8.0\Globomantics.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\completed by me - with sqlserver\Start_Here\Globomantics.Infrastructure\obj\Debug\net8.0\Globomantics.Infrastructure.AssemblyInfo.cs
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\completed by me - with sqlserver\Start_Here\Globomantics.Infrastructure\obj\Debug\net8.0\Globomantics.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\completed by me - with sqlserver\Start_Here\Globomantics.Infrastructure\obj\Debug\net8.0\Globomantics.Infrastructure.dll
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\completed by me - with sqlserver\Start_Here\Globomantics.Infrastructure\obj\Debug\net8.0\refint\Globomantics.Infrastructure.dll
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\completed by me - with sqlserver\Start_Here\Globomantics.Infrastructure\obj\Debug\net8.0\Globomantics.Infrastructure.pdb
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\completed by me - with sqlserver\Start_Here\Globomantics.Infrastructure\bin\Debug\net8.0\Globomantics.Domain.deps.json
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\completed by me - with sqlserver\Start_Here\Globomantics.Infrastructure\bin\Debug\net8.0\Globomantics.Domain.runtimeconfig.json
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\completed by me - with sqlserver\Start_Here\Globomantics.Infrastructure\bin\Debug\net8.0\Globomantics.Domain.exe
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\completed by me - with sqlserver\Start_Here\Globomantics.Infrastructure\bin\Debug\net8.0\Globomantics.Infrastructure.deps.json
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\completed by me - with sqlserver\Start_Here\Globomantics.Infrastructure\bin\Debug\net8.0\Globomantics.Infrastructure.runtimeconfig.json
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\completed by me - with sqlserver\Start_Here\Globomantics.Infrastructure\bin\Debug\net8.0\Globomantics.Infrastructure.dll
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\completed by me - with sqlserver\Start_Here\Globomantics.Infrastructure\bin\Debug\net8.0\Globomantics.Infrastructure.pdb
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\completed by me - with sqlserver\Start_Here\Globomantics.Infrastructure\bin\Debug\net8.0\Globomantics.Domain.dll
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\completed by me - with sqlserver\Start_Here\Globomantics.Infrastructure\bin\Debug\net8.0\Globomantics.Domain.pdb
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\completed by me - with sqlserver\Start_Here\Globomantics.Infrastructure\obj\Debug\net8.0\Globoman.8DCD1FD2.Up2Date
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\completed by me - with sqlserver\Start_Here\Globomantics.Infrastructure\obj\Debug\net8.0\Globomantics.Infrastructure.genruntimeconfig.cache
+C:\Users\Youstina\Downloads\c-sharp-10-building-real-world-application\02\demos\completed by me - with sqlserver\Start_Here\Globomantics.Infrastructure\obj\Debug\net8.0\ref\Globomantics.Infrastructure.dll
+C:\Users\Youstina\OneDrive\Desktop\Big World\completed by me - with sqlserver\Start_Here\Globomantics.Infrastructure\bin\Debug\net8.0\Globomantics.Domain.deps.json
+C:\Users\Youstina\OneDrive\Desktop\Big World\completed by me - with sqlserver\Start_Here\Globomantics.Infrastructure\bin\Debug\net8.0\Globomantics.Domain.runtimeconfig.json
+C:\Users\Youstina\OneDrive\Desktop\Big World\completed by me - with sqlserver\Start_Here\Globomantics.Infrastructure\bin\Debug\net8.0\Globomantics.Domain.exe
+C:\Users\Youstina\OneDrive\Desktop\Big World\completed by me - with sqlserver\Start_Here\Globomantics.Infrastructure\bin\Debug\net8.0\Globomantics.Infrastructure.deps.json
+C:\Users\Youstina\OneDrive\Desktop\Big World\completed by me - with sqlserver\Start_Here\Globomantics.Infrastructure\bin\Debug\net8.0\Globomantics.Infrastructure.runtimeconfig.json
+C:\Users\Youstina\OneDrive\Desktop\Big World\completed by me - with sqlserver\Start_Here\Globomantics.Infrastructure\bin\Debug\net8.0\Globomantics.Infrastructure.dll
+C:\Users\Youstina\OneDrive\Desktop\Big World\completed by me - with sqlserver\Start_Here\Globomantics.Infrastructure\bin\Debug\net8.0\Globomantics.Infrastructure.pdb
+C:\Users\Youstina\OneDrive\Desktop\Big World\completed by me - with sqlserver\Start_Here\Globomantics.Infrastructure\bin\Debug\net8.0\Globomantics.Domain.dll
+C:\Users\Youstina\OneDrive\Desktop\Big World\completed by me - with sqlserver\Start_Here\Globomantics.Infrastructure\bin\Debug\net8.0\Globomantics.Domain.pdb
+C:\Users\Youstina\OneDrive\Desktop\Big World\completed by me - with sqlserver\Start_Here\Globomantics.Infrastructure\obj\Debug\net8.0\Globomantics.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Youstina\OneDrive\Desktop\Big World\completed by me - with sqlserver\Start_Here\Globomantics.Infrastructure\obj\Debug\net8.0\Globomantics.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Youstina\OneDrive\Desktop\Big World\completed by me - with sqlserver\Start_Here\Globomantics.Infrastructure\obj\Debug\net8.0\Globomantics.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Youstina\OneDrive\Desktop\Big World\completed by me - with sqlserver\Start_Here\Globomantics.Infrastructure\obj\Debug\net8.0\Globomantics.Infrastructure.AssemblyInfo.cs
+C:\Users\Youstina\OneDrive\Desktop\Big World\completed by me - with sqlserver\Start_Here\Globomantics.Infrastructure\obj\Debug\net8.0\Globomantics.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Youstina\OneDrive\Desktop\Big World\completed by me - with sqlserver\Start_Here\Globomantics.Infrastructure\obj\Debug\net8.0\Globoman.8DCD1FD2.Up2Date
+C:\Users\Youstina\OneDrive\Desktop\Big World\completed by me - with sqlserver\Start_Here\Globomantics.Infrastructure\obj\Debug\net8.0\Globomantics.Infrastructure.dll
+C:\Users\Youstina\OneDrive\Desktop\Big World\completed by me - with sqlserver\Start_Here\Globomantics.Infrastructure\obj\Debug\net8.0\refint\Globomantics.Infrastructure.dll
+C:\Users\Youstina\OneDrive\Desktop\Big World\completed by me - with sqlserver\Start_Here\Globomantics.Infrastructure\obj\Debug\net8.0\Globomantics.Infrastructure.pdb
+C:\Users\Youstina\OneDrive\Desktop\Big World\completed by me - with sqlserver\Start_Here\Globomantics.Infrastructure\obj\Debug\net8.0\Globomantics.Infrastructure.genruntimeconfig.cache
+C:\Users\Youstina\OneDrive\Desktop\Big World\completed by me - with sqlserver\Start_Here\Globomantics.Infrastructure\obj\Debug\net8.0\ref\Globomantics.Infrastructure.dll
+C:\Users\Youstina\OneDrive\Desktop\completed by me - with sqlserver\Globomantics.Infrastructure\bin\Debug\net8.0\Globomantics.Domain.deps.json
+C:\Users\Youstina\OneDrive\Desktop\completed by me - with sqlserver\Globomantics.Infrastructure\bin\Debug\net8.0\Globomantics.Domain.runtimeconfig.json
+C:\Users\Youstina\OneDrive\Desktop\completed by me - with sqlserver\Globomantics.Infrastructure\bin\Debug\net8.0\Globomantics.Domain.exe
+C:\Users\Youstina\OneDrive\Desktop\completed by me - with sqlserver\Globomantics.Infrastructure\bin\Debug\net8.0\Globomantics.Infrastructure.deps.json
+C:\Users\Youstina\OneDrive\Desktop\completed by me - with sqlserver\Globomantics.Infrastructure\bin\Debug\net8.0\Globomantics.Infrastructure.runtimeconfig.json
+C:\Users\Youstina\OneDrive\Desktop\completed by me - with sqlserver\Globomantics.Infrastructure\bin\Debug\net8.0\Globomantics.Infrastructure.dll
+C:\Users\Youstina\OneDrive\Desktop\completed by me - with sqlserver\Globomantics.Infrastructure\bin\Debug\net8.0\Globomantics.Infrastructure.pdb
+C:\Users\Youstina\OneDrive\Desktop\completed by me - with sqlserver\Globomantics.Infrastructure\bin\Debug\net8.0\Globomantics.Domain.dll
+C:\Users\Youstina\OneDrive\Desktop\completed by me - with sqlserver\Globomantics.Infrastructure\bin\Debug\net8.0\Globomantics.Domain.pdb
+C:\Users\Youstina\OneDrive\Desktop\completed by me - with sqlserver\Globomantics.Infrastructure\obj\Debug\net8.0\Globomantics.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Youstina\OneDrive\Desktop\completed by me - with sqlserver\Globomantics.Infrastructure\obj\Debug\net8.0\Globomantics.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Youstina\OneDrive\Desktop\completed by me - with sqlserver\Globomantics.Infrastructure\obj\Debug\net8.0\Globomantics.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Youstina\OneDrive\Desktop\completed by me - with sqlserver\Globomantics.Infrastructure\obj\Debug\net8.0\Globomantics.Infrastructure.AssemblyInfo.cs
+C:\Users\Youstina\OneDrive\Desktop\completed by me - with sqlserver\Globomantics.Infrastructure\obj\Debug\net8.0\Globomantics.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Youstina\OneDrive\Desktop\completed by me - with sqlserver\Globomantics.Infrastructure\obj\Debug\net8.0\Globoman.8DCD1FD2.Up2Date
+C:\Users\Youstina\OneDrive\Desktop\completed by me - with sqlserver\Globomantics.Infrastructure\obj\Debug\net8.0\Globomantics.Infrastructure.dll
+C:\Users\Youstina\OneDrive\Desktop\completed by me - with sqlserver\Globomantics.Infrastructure\obj\Debug\net8.0\refint\Globomantics.Infrastructure.dll
+C:\Users\Youstina\OneDrive\Desktop\completed by me - with sqlserver\Globomantics.Infrastructure\obj\Debug\net8.0\Globomantics.Infrastructure.pdb
+C:\Users\Youstina\OneDrive\Desktop\completed by me - with sqlserver\Globomantics.Infrastructure\obj\Debug\net8.0\Globomantics.Infrastructure.genruntimeconfig.cache
+C:\Users\Youstina\OneDrive\Desktop\completed by me - with sqlserver\Globomantics.Infrastructure\obj\Debug\net8.0\ref\Globomantics.Infrastructure.dll
