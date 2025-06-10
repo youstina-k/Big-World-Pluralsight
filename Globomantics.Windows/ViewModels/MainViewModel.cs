@@ -4,6 +4,7 @@ using CommunityToolkit.Mvvm.Messaging;
 using Globomantics.Domain;
 using Globomantics.Infrastructure.Data.Repositories;
 using Globomantics.Windows.Messages;
+using Microsoft.VisualBasic;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -152,10 +153,10 @@ public class MainViewModel : ObservableObject,
 
         var items = await todoRepository.GetAllAsync();
 
-        var itemsDue = items.Count(i => i.DueDate.ToLocalTime() > DateTimeOffset.Now);
+        var itemsDue = items.Count(i => i.DueDate < DateTime.Now);
 
         StatusText = $"Welcome {App.CurrentUser.Name}! " +
-            "You have items passed due date.";
+            $"You have {itemsDue} items passed due date.";
          
         foreach (var item in items.Where(item => !item.IsDeleted))
         {

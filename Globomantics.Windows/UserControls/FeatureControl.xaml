@@ -20,7 +20,7 @@
             <TextBox Text="{Binding Description}" />
 
             <Label FontWeight="Bold" Margin="0,10,0,0">Due date</Label>
-            <DatePicker Text="{Binding DueDate}" />
+            <DatePicker SelectedDate="{Binding DueDate, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
 
             <Label Margin="0,10,0,0" FontWeight="Bold">Attach to parent</Label>
             <ComboBox x:Name="ParentTodo" ItemsSource="{Binding AvailableParentTasks}"

@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Globomantics.Domain
 {
-    public record TodoTask(string Title , DateTimeOffset DueDate,User CreatedBy) 
+    public record TodoTask(string Title , DateTime DueDate,User CreatedBy) 
         : Todo(Guid.NewGuid(), Title , DateTimeOffset.UtcNow, CreatedBy)
     {
-        
+        public DateTime DueDate { get; set; }
     }
 }

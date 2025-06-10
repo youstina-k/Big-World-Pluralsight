@@ -684,3 +684,4 @@ C:\Users\Youstina\OneDrive\Desktop\completed by me - with sqlserver\Globomantics
 C:\Users\Youstina\OneDrive\Desktop\completed by me - with sqlserver\Globomantics.Domain\obj\Debug\net8.0\Globomantics.Domain.pdb
 C:\Users\Youstina\OneDrive\Desktop\completed by me - with sqlserver\Globomantics.Domain\obj\Debug\net8.0\Globomantics.Domain.genruntimeconfig.cache
 C:\Users\Youstina\OneDrive\Desktop\completed by me - with sqlserver\Globomantics.Domain\obj\Debug\net8.0\ref\Globomantics.Domain.dll
+C:\Users\Youstina\OneDrive\Desktop\completed by me - with sqlserver\Globomantics.Domain\obj\Debug\net8.0\Globomantics.Domain.sourcelink.json

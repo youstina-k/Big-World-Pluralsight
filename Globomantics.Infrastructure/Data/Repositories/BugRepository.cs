@@ -41,6 +41,7 @@ public class BugRepository : TodoRepository<Bug>
         existingBug.AffectedUsers = bug.AffectedUsers;
         existingBug.Description = bug.Description;
         existingBug.Title = bug.Title;
+        existingBug.DueDate = bug.DueDate;
         existingBug.Severity = (Data.Models.Severity)bug.Severity;
         existingBug.AssignedTo = user;
         existingBug.CreatedBy = user;

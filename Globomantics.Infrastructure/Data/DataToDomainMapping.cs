@@ -41,7 +41,7 @@ public class DataToDomainMapping
         )
         { 
             Id = bug.Id,
-            
+            DueDate = bug.DueDate,
             IsCompleted = bug.IsCompleted
         };
     }
@@ -51,7 +51,6 @@ public class DataToDomainMapping
         return new(feature.Title,
             feature.Description,
             feature.Component,
-            feature.DueDate,
             feature.Priority,
             MapUser(feature.CreatedBy),
             MapUser(feature.AssignedTo))

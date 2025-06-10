@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Globomantics.Infrastructure.Migrations
 {
     [DbContext(typeof(GlobomanticsDbContext))]
-    [Migration("20250609182210_IntialCreate")]
-    partial class IntialCreate
+    [Migration("20250610113535_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -107,8 +107,8 @@ namespace Globomantics.Infrastructure.Migrations
                 {
                     b.HasBaseType("Globomantics.Infrastructure.Data.Models.Todo");
 
-                    b.Property<DateTimeOffset>("DueDate")
-                        .HasColumnType("datetimeoffset");
+                    b.Property<DateTime>("DueDate")
+                        .HasColumnType("datetime2");
 
                     b.HasDiscriminator().HasValue("TodoTask");
                 });

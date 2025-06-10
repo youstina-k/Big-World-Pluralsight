@@ -104,8 +104,8 @@ namespace Globomantics.Infrastructure.Migrations
                 {
                     b.HasBaseType("Globomantics.Infrastructure.Data.Models.Todo");
 
-                    b.Property<DateTimeOffset>("DueDate")
-                        .HasColumnType("datetimeoffset");
+                    b.Property<DateTime>("DueDate")
+                        .HasColumnType("datetime2");
 
                     b.HasDiscriminator().HasValue("TodoTask");
                 });

@@ -20,7 +20,7 @@ namespace Globomantics.Windows.ViewModels
         private string description;
         private string affectedVersion;
         private int affectedUsers;
-        private DateTimeOffset dueDate;
+        private DateTime dueDate=DateTime.UtcNow;
         private Severity severity;
         public string? Description
         {
@@ -49,7 +49,7 @@ namespace Globomantics.Windows.ViewModels
                 OnPropertyChanged(nameof(AffectedUsers));
             }
         }
-        public DateTimeOffset DueDate
+        public DateTime DueDate
         {
             get =>dueDate; 
             set

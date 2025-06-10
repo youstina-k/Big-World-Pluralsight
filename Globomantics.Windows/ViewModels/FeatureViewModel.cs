@@ -14,7 +14,7 @@ namespace Globomantics.Windows.ViewModels
     {
         private readonly IRepository<Feature> repository;
         private string description;
-        private DateTimeOffset dueDate;
+        private DateTime dueDate = DateTime.UtcNow;
         public string? Description
         {
             get =>description;
@@ -24,7 +24,7 @@ namespace Globomantics.Windows.ViewModels
                 OnPropertyChanged(nameof(Description));
             }
         }
-        public DateTimeOffset DueDate
+        public DateTime DueDate
         {
             get => dueDate;
             set
@@ -55,11 +55,12 @@ namespace Globomantics.Windows.ViewModels
 
             if (Model is null)
             {
-                Model = new Feature(Title, Description,"",DueDate, 1,
+                Model = new Feature(Title, Description,"", 1,
                     App.CurrentUser, App.CurrentUser)
                 {
                     
                     Parent = Parent,
+                    DueDate=DueDate,
                     IsCompleted = IsCompleted
                 };
             }
@@ -79,6 +80,7 @@ namespace Globomantics.Windows.ViewModels
                 await repository.AddAsync(Model);
                 await repository.SaveChangesAsync();
                 WeakReferenceMessenger.Default.Send<TodoSavedMessage>(new(Model));
+
             }
             catch(Exception ex) { 
                 ShowError?.Invoke("couldn't save to the database"); }

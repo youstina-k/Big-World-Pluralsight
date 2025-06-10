@@ -911,3 +911,4 @@ C:\Users\Youstina\OneDrive\Desktop\completed by me - with sqlserver\Globomantics
 C:\Users\Youstina\OneDrive\Desktop\completed by me - with sqlserver\Globomantics.Windows\obj\Debug\net8.0-windows\Globomantics.Windows.pdb
 C:\Users\Youstina\OneDrive\Desktop\completed by me - with sqlserver\Globomantics.Windows\obj\Debug\net8.0-windows\Globomantics.Windows.genruntimeconfig.cache
 C:\Users\Youstina\OneDrive\Desktop\completed by me - with sqlserver\Globomantics.Windows\obj\Debug\net8.0-windows\ref\Globomantics.Windows.dll
+C:\Users\Youstina\OneDrive\Desktop\completed by me - with sqlserver\Globomantics.Windows\obj\Debug\net8.0-windows\Globomantics.Windows.sourcelink.json

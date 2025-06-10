@@ -88,6 +88,8 @@ public partial class MainWindow : Window
         var control = CreateUserControl(TodoType.SelectedValue.ToString() ?? "");
 
         CreateTodoControlContainer.Children.Add(control);
+        
+
     }
     private void TodoItem_SelectionChanged(object sender, SelectionChangedEventArgs e)
     {

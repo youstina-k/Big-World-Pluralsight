@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Globomantics.Infrastructure.Migrations
 {
     /// <inheritdoc />
-    public partial class IntialCreate : Migration
+    public partial class InitialCreate : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -35,7 +35,7 @@ namespace Globomantics.Infrastructure.Migrations
                     ParentId = table.Column<Guid>(type: "uniqueidentifier", nullable: true),
                     CreatedById = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     Discriminator = table.Column<string>(type: "nvarchar(8)", maxLength: 8, nullable: false),
-                    DueDate = table.Column<DateTimeOffset>(type: "datetimeoffset", nullable: true),
+                    DueDate = table.Column<DateTime>(type: "datetime2", nullable: true),
                     Bug_Description = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Severity = table.Column<int>(type: "int", nullable: true),
                     AffectedVersion = table.Column<string>(type: "nvarchar(max)", nullable: true),
