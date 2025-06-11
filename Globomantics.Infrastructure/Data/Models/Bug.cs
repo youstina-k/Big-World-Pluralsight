@@ -8,5 +8,5 @@ public class Bug : TodoTask
     public int AffectedUsers { get; set; }
 
     public virtual User? AssignedTo { get; set; } = default;
-    public virtual ICollection<Image> Images { get; set; } = default!;
+    
 }

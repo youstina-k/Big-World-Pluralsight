@@ -8,6 +8,7 @@ using Microsoft.VisualBasic;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Data;
 using System.Globalization;
 using System.Linq;
 using System.Threading.Tasks;
@@ -20,11 +21,11 @@ public class MainViewModel : ObservableObject,
     IViewModel
 {
     private string statusText = "Everything is OK!";
-    private bool isLoading;
     private bool isInitialized;
     private readonly IRepository<User> userRepository;
     private readonly IRepository<TodoTask> todoRepository;
     private string searchText = "";
+    private bool isLoading;
     public string StatusText 
     {
         get => statusText;
@@ -94,24 +95,27 @@ public class MainViewModel : ObservableObject,
             }
         });
         WeakReferenceMessenger.Default.Register<TodoDeletedMessage>
-            (this, async (sender, message) =>
+            (this,async (sender, message) =>
         {
             var item = message.Value;
             
             var unfinishedItem = Unfinished.FirstOrDefault(i => i.Id == item.Id);
-                if (unfinishedItem != null)
+            if (unfinishedItem != null)
                 {
-                    Unfinished.Remove(unfinishedItem);
-                    await todoRepository.DeleteAsync((TodoTask)unfinishedItem);
-                    await todoRepository.SaveChangesAsync();
+                   
+                   Unfinished.Remove(unfinishedItem);
+                await todoRepository.DeleteAsync((TodoTask)unfinishedItem);
+                await todoRepository.SaveChangesAsync();
+
             }
             var completedItem = Completed.FirstOrDefault(i => i.Id == item.Id);
               if (completedItem != null)
               {
                     Completed.Remove(completedItem);
-                    await todoRepository.DeleteAsync((TodoTask)completedItem);
-                    await todoRepository.SaveChangesAsync();
-              }
+                await todoRepository.DeleteAsync((TodoTask)completedItem);
+                await todoRepository.SaveChangesAsync();
+
+            }
         });
         this.userRepository = userRepository;
         this.todoRepository = todoRepository;
@@ -152,12 +156,6 @@ public class MainViewModel : ObservableObject,
         App.CurrentUser = await userRepository.FindByAsync("youstina");
 
         var items = await todoRepository.GetAllAsync();
-
-        var itemsDue = items.Count(i => i.DueDate < DateTime.Now);
-
-        StatusText = $"Welcome {App.CurrentUser.Name}! " +
-            $"You have {itemsDue} items passed due date.";
-         
         foreach (var item in items.Where(item => !item.IsDeleted))
         {
             if (item.IsCompleted)
@@ -169,6 +167,16 @@ public class MainViewModel : ObservableObject,
                 Unfinished.Add(item);
             }
         }
+        int itemsDueCount = 0;
+        foreach (var item in items)
+        {
+            if (Unfinished.Contains(item) && (item.DueDate < DateTime.Now))
+            {
+                itemsDueCount++;
+            }
+        }
+        StatusText = $"Welcome {App.CurrentUser.Name}! " +
+            $"You have {itemsDueCount} items passed due date.";
         isInitialized = true;
     }
 }

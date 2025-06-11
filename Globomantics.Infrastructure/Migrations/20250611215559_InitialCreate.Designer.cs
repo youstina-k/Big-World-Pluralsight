@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Globomantics.Infrastructure.Migrations
 {
     [DbContext(typeof(GlobomanticsDbContext))]
-    [Migration("20250610113535_InitialCreate")]
+    [Migration("20250611215559_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -24,26 +24,6 @@ namespace Globomantics.Infrastructure.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
-
-            modelBuilder.Entity("Globomantics.Infrastructure.Data.Models.Image", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<Guid?>("BugId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<string>("ImageData")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("BugId");
-
-                    b.ToTable("Images");
-                });
 
             modelBuilder.Entity("Globomantics.Infrastructure.Data.Models.Todo", b =>
                 {
@@ -171,13 +151,6 @@ namespace Globomantics.Infrastructure.Migrations
                     b.HasDiscriminator().HasValue("Feature");
                 });
 
-            modelBuilder.Entity("Globomantics.Infrastructure.Data.Models.Image", b =>
-                {
-                    b.HasOne("Globomantics.Infrastructure.Data.Models.Bug", null)
-                        .WithMany("Images")
-                        .HasForeignKey("BugId");
-                });
-
             modelBuilder.Entity("Globomantics.Infrastructure.Data.Models.Todo", b =>
                 {
                     b.HasOne("Globomantics.Infrastructure.Data.Models.User", "CreatedBy")
@@ -211,11 +184,6 @@ namespace Globomantics.Infrastructure.Migrations
                         .HasForeignKey("AssignedToId");
 
                     b.Navigation("AssignedTo");
-                });
-
-            modelBuilder.Entity("Globomantics.Infrastructure.Data.Models.Bug", b =>
-                {
-                    b.Navigation("Images");
                 });
 #pragma warning restore 612, 618
         }

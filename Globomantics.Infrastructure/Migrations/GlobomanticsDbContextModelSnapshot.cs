@@ -22,26 +22,6 @@ namespace Globomantics.Infrastructure.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("Globomantics.Infrastructure.Data.Models.Image", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<Guid?>("BugId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<string>("ImageData")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("BugId");
-
-                    b.ToTable("Images");
-                });
-
             modelBuilder.Entity("Globomantics.Infrastructure.Data.Models.Todo", b =>
                 {
                     b.Property<Guid>("Id")
@@ -168,13 +148,6 @@ namespace Globomantics.Infrastructure.Migrations
                     b.HasDiscriminator().HasValue("Feature");
                 });
 
-            modelBuilder.Entity("Globomantics.Infrastructure.Data.Models.Image", b =>
-                {
-                    b.HasOne("Globomantics.Infrastructure.Data.Models.Bug", null)
-                        .WithMany("Images")
-                        .HasForeignKey("BugId");
-                });
-
             modelBuilder.Entity("Globomantics.Infrastructure.Data.Models.Todo", b =>
                 {
                     b.HasOne("Globomantics.Infrastructure.Data.Models.User", "CreatedBy")
@@ -208,11 +181,6 @@ namespace Globomantics.Infrastructure.Migrations
                         .HasForeignKey("AssignedToId");
 
                     b.Navigation("AssignedTo");
-                });
-
-            modelBuilder.Entity("Globomantics.Infrastructure.Data.Models.Bug", b =>
-                {
-                    b.Navigation("Images");
                 });
 #pragma warning restore 612, 618
         }

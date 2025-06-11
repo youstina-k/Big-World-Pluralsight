@@ -31,7 +31,6 @@ public class DomainToDataMapping
             AffectedVersion = bug.AffectedVersion,
             CreatedDate = bug.CreatedDate,
             DueDate = bug.DueDate,
-            Images = bug.Images.Select(image => new Data.Models.Image { ImageData = Convert.ToBase64String(image) }).ToArray(),
             IsCompleted = bug.IsCompleted,
             IsDeleted = bug.IsDeleted,
             Severity = (Data.Models.Severity)bug.Severity,

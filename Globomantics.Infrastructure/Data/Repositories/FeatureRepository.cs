@@ -40,6 +40,7 @@ public class FeatureRepository : TodoRepository<Feature>
     {
 
         featureToUpdate.IsCompleted = feature.IsCompleted;
+        featureToUpdate.IsDeleted = feature.IsDeleted;
         featureToUpdate.Component = feature.Component;
         featureToUpdate.Description = feature.Description;
         featureToUpdate.DueDate = feature.DueDate;
@@ -52,7 +53,6 @@ public class FeatureRepository : TodoRepository<Feature>
 
         Context.Features.Update(featureToUpdate);
     }
-
     private async Task CreateAsync(Feature feature, Data.Models.User user)
     {
         var featureToAdd = DomainToDataMapping.MapTodoFromDomain<Feature, Data.Models.Feature>(feature);

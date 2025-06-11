@@ -18,6 +18,7 @@ namespace Globomantics.Windows.ViewModels
         private T? model;
         private string? title;
         private bool isCompleted;
+        private bool isDeleted;
         private Todo? parent;
         public Todo? Parent
         {
@@ -35,6 +36,15 @@ namespace Globomantics.Windows.ViewModels
             {
                 isCompleted = value;
                 OnPropertyChanged(nameof(IsCompleted));
+            }
+        }
+        public bool IsDeleted
+        {
+            get => isDeleted;
+            set
+            {
+                isDeleted = value;
+                OnPropertyChanged(nameof(isDeleted));
             }
         }
         public string? Title
@@ -92,6 +102,7 @@ namespace Globomantics.Windows.ViewModels
             Model = model as T;
             Title = model.Title;
             IsCompleted = model.IsCompleted;
+            IsDeleted = model.IsDeleted;
             Parent = parent;
 
         }

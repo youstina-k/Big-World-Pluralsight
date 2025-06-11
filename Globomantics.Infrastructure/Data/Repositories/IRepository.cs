@@ -1,4 +1,6 @@
-﻿namespace Globomantics.Infrastructure.Data.Repositories;
+﻿using Globomantics.Domain;
+
+namespace Globomantics.Infrastructure.Data.Repositories;
 
 public interface IRepository<T>
 {
@@ -8,5 +10,4 @@ public interface IRepository<T>
     Task AddAsync(T item);
     Task SaveChangesAsync();
     Task DeleteAsync(T item);
-    //Task<IEnumerable<T>> SearchByTitle(string text);
-} 
+}

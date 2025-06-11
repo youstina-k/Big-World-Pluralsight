@@ -28,21 +28,19 @@ public class DataToDomainMapping
 
     private static Domain.Bug MapBug(Data.Models.Bug bug)
     {
+
         return new(bug.Title,
             bug.Description,
             (Domain.Severity)bug.Severity,
             bug.AffectedVersion,
             bug.AffectedUsers,
             MapUser(bug.CreatedBy),
-            MapUser(bug.AssignedTo),
-            bug?.Images?.Select(
-                image => Convert.FromBase64String(image.ImageData)).ToArray()
-                ?? Enumerable.Empty<byte[]>().ToArray()
-        )
-        { 
+            MapUser(bug.AssignedTo))
+        {
             Id = bug.Id,
             DueDate = bug.DueDate,
-            IsCompleted = bug.IsCompleted
+            IsCompleted = bug.IsCompleted,
+            IsDeleted = bug.IsDeleted
         };
     }
 
@@ -57,7 +55,8 @@ public class DataToDomainMapping
         {
             Id = feature.Id,
             DueDate = feature.DueDate,
-            IsCompleted = feature.IsCompleted
+            IsCompleted = feature.IsCompleted,
+            IsDeleted = feature.IsDeleted
         };
     }
 

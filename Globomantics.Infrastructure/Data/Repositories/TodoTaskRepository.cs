@@ -11,7 +11,7 @@ public class TodoTaskRepository : TodoRepository<TodoTask>
 
     public override async Task AddAsync(TodoTask todoTask)
     {
-        var todoTaskToAdd = DomainToDataMapping.MapTodoFromDomain<TodoTask,Data.Models.TodoTask>(todoTask);
+        var todoTaskToAdd = DomainToDataMapping.MapTodoFromDomain<TodoTask, Models.TodoTask>(todoTask);
 
         await Context.TodoTasks.AddAsync(todoTaskToAdd);
     }
@@ -20,7 +20,7 @@ public class TodoTaskRepository : TodoRepository<TodoTask>
     {
         var data = await Context.TodoTasks.SingleAsync(bug => bug.Id == id);
 
-        return DataToDomainMapping.MapTodoFromData<Data.Models.TodoTask,TodoTask>(data);
+        return DataToDomainMapping.MapTodoFromData<Models.TodoTask, TodoTask>(data);
     }
     public override async Task DeleteAsync(TodoTask task)
     {

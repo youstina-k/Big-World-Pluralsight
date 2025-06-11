@@ -16,14 +16,6 @@ public abstract class TodoRepository<T> : IRepository<T>
     public abstract Task<T> GetAsync(Guid id);
     public abstract Task DeleteAsync(T item);
 
-    public virtual async Task<IEnumerable<T>> GetAllAsync()
-    {
-        IQueryable<Data.Models.TodoTask> query = Context.TodoTasks.Where(t => !t.IsDeleted)
-       .Include(t => t.CreatedBy).Include(t => t.Parent);
-        return await query.Select(x => DataToDomainMapping.MapTodoFromData<Data.Models.TodoTask, T>(x))
-       .ToArrayAsync();
-    }
-
     public virtual async Task<T> FindByAsync(string title)
     {
         var task = await Context.TodoTasks.SingleAsync(t => t.Title == title);
@@ -55,13 +47,14 @@ public abstract class TodoRepository<T> : IRepository<T>
             await Context.TodoTasks.AddAsync(parentToAdd);
         }
     }
-    /*public async Task<IEnumerable<T>> SearchByTitle(string text)
+    public virtual async Task<IEnumerable<T>> GetAllAsync()
     {
-        var tasks = await Context.TodoTasks.Where(t => !t.IsCompleted && !t.IsDeleted).ToArrayAsync();
-        if(!string.IsNullOrWhiteSpace(text)&& !text.Equals("*", StringComparison.OrdinalIgnoreCase))
-        {
-            tasks =tasks.Where(t => t.Title.Contains(text, StringComparison.OrdinalIgnoreCase)).ToArray();
-        }
-        return tasks.Select(x => DataToDomainMapping.MapTodoFromData<Data.Models.TodoTask, T>(x));
-    }*/
+        IQueryable<Data.Models.TodoTask> query = Context.TodoTasks.Where(t => !t.IsDeleted)
+       .Include(t => t.CreatedBy).Include(t => t.Parent);
+        return await query.Select(x => DataToDomainMapping.MapTodoFromData<Data.Models.TodoTask, T>(x))
+       .ToArrayAsync();
+    }
+
+    
 }
+

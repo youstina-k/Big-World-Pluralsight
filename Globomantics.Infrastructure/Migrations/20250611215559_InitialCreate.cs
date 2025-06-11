@@ -72,29 +72,6 @@ namespace Globomantics.Infrastructure.Migrations
                         onDelete: ReferentialAction.Cascade);
                 });
 
-            migrationBuilder.CreateTable(
-                name: "Images",
-                columns: table => new
-                {
-                    Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    ImageData = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    BugId = table.Column<Guid>(type: "uniqueidentifier", nullable: true)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Images", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_Images_Todo_BugId",
-                        column: x => x.BugId,
-                        principalTable: "Todo",
-                        principalColumn: "Id");
-                });
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Images_BugId",
-                table: "Images",
-                column: "BugId");
-
             migrationBuilder.CreateIndex(
                 name: "IX_Todo_AssignedToId",
                 table: "Todo",
@@ -119,9 +96,6 @@ namespace Globomantics.Infrastructure.Migrations
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.DropTable(
-                name: "Images");
-
             migrationBuilder.DropTable(
                 name: "Todo");
 

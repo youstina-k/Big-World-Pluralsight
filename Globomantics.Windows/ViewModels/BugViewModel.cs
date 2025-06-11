@@ -74,18 +74,10 @@ namespace Globomantics.Windows.ViewModels
             Severity.Major,
             Severity.Minor 
         };
-        public ObservableCollection<byte[]> Screenshots { get; set; } = new();
-        public ICommand AttachScreenshotCommand { get; set; }
         public BugViewModel(IRepository<Bug> repository) : base()
         {
             this.repository = repository;
             SaveCommand = new RelayCommand(async () => await SaveAsync());
-            AttachScreenshotCommand = new RelayCommand(() =>
-            {
-                var filenames = ShowOpenFileDialog?.Invoke();
-                if (filenames == null || !filenames.Any()) { return; }
-                foreach (var filename in filenames) { Screenshots.Add(File.ReadAllBytes(filename)); }
-            });
         }
         public override void UpdateModel(Todo model)
         {
@@ -96,7 +88,7 @@ namespace Globomantics.Windows.ViewModels
             AffectedUsers = bug.AffectedUsers;
             DueDate= bug.DueDate;
             Severity = bug.Severity;
-            Screenshots = new(bug.Images);
+
            
         }
         public override async Task SaveAsync()
@@ -110,11 +102,12 @@ namespace Globomantics.Windows.ViewModels
             if (Model is null)
             {
                 Model = new Bug(Title,Description,Severity,AffectedVersion,AffectedUsers,
-                App.CurrentUser,App.CurrentUser,Screenshots.ToArray())
+                App.CurrentUser,App.CurrentUser)
                 {
                     DueDate = DueDate,
                     Parent = Parent,
-                    IsCompleted = IsCompleted
+                    IsCompleted = IsCompleted,
+                    IsDeleted =IsDeleted
                 };
             }
             else
@@ -129,7 +122,7 @@ namespace Globomantics.Windows.ViewModels
                     DueDate = DueDate,
                     Parent = Parent,
                     IsCompleted = IsCompleted,
-                    Images = Screenshots.ToArray()
+                    IsDeleted = IsDeleted
                 };
             }
             try

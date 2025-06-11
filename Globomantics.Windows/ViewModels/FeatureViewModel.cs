@@ -61,7 +61,8 @@ namespace Globomantics.Windows.ViewModels
                     
                     Parent = Parent,
                     DueDate=DueDate,
-                    IsCompleted = IsCompleted
+                    IsCompleted = IsCompleted,
+                    IsDeleted = IsDeleted
                 };
             }
             else
@@ -72,7 +73,8 @@ namespace Globomantics.Windows.ViewModels
                     Description = Description,
                     DueDate = DueDate,
                     Parent = Parent,
-                    IsCompleted = IsCompleted
+                    IsCompleted = IsCompleted,
+                    IsDeleted = IsDeleted
                 };
             }
             try

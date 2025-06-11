@@ -1,6 +1,8 @@
-﻿using Globomantics.Domain;
-
+﻿using System.Collections.ObjectModel;
+using Globomantics.Domain;
+using Globomantics.Infrastructure.Data.Models;
 using Microsoft.EntityFrameworkCore;
+using Bug = Globomantics.Domain.Bug;
 
 namespace Globomantics.Infrastructure.Data.Repositories;
 
@@ -33,10 +35,12 @@ public class BugRepository : TodoRepository<Bug>
             await Context.SaveChangesAsync();
         }
     }
+   
 
     private async Task UpdateAsync(Bug bug, Models.Bug existingBug, Models.User user)
     {
         existingBug.IsCompleted = bug.IsCompleted;
+        existingBug.IsDeleted = bug.IsDeleted;
         existingBug.AffectedVersion = bug.AffectedVersion;
         existingBug.AffectedUsers = bug.AffectedUsers;
         existingBug.Description = bug.Description;

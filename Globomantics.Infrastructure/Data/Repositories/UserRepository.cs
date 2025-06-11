@@ -62,12 +62,4 @@ public class UserRepository : IRepository<User>
     {
         await Context.SaveChangesAsync();
     }
-    /*public async Task<IEnumerable<T>> SearchByTitle(string text) {
-        var tasks = await context.Users.Where(t => !t.IsCompleted && !t.IsDeleted).ToArrayAsync();
-        if (!string.IsNullOrWhiteSpace(text) && !text.Equals("*", StringComparison.OrdinalIgnoreCase))
-        {
-            tasks = tasks.Where(t => t.Title.Contains(text, StringComparison.OrdinalIgnoreCase)).ToArray();
-        }
-        return tasks.Select(x => DataToDomainMapping.MapTodoFromData<Data.Models.TodoTask, T>(x));
-    }*/
 }
